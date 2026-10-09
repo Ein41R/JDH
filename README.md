@@ -5,7 +5,9 @@
 ***
 
 ## Motivation
+Gone now. I am orphaning this project. I have learned a lot during this. And I have come to the realization that my work was nothing but a waste of time.
 
+I used BDH as a encoder NN, which was way overkill. For nothing but a computationally expensive lookup table. Ended up bottlenecking the most important part of the architecture, and desperately applied changes without recognizing the issue at its core. For ther record I left the writeup down there. It is nothing but a delusional manifest, but if you are curious, I left it for anyone to read.
 ***
 
 
