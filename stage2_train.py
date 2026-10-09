@@ -126,8 +126,8 @@ if __name__ == "__main__":
         print(f"Sizes of embs: src_emb: {src_emb.size()}, tgt_emb: {tgt_emb.size()}, tgt_pred: {tgt_pred.size()}")
 
 
-        tgt_emb = tgt_emb[:, -32:, :]
-        tgt_pred = tgt_pred[:, -32:, :]
+        tgt_emb = tgt_emb[:, -TARGET_SIZE:, :]
+        tgt_pred = tgt_pred[:, -TARGET_SIZE:, :]
 
         loss = F.mse_loss(tgt_pred, tgt_emb)
 
